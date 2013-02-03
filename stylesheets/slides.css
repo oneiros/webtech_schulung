@@ -1,0 +1,28 @@
+/*
+ *= require ./deck-theme
+ *= require ./highlight-theme
+ *
+ * This is the default stylesheet that automatically gets
+ * included in your slide deck.
+ *
+ * Currently this loads the default deck.js and highlight.js
+ * themes. Feel free to add and/or change to your liking.
+ *
+ */
+.slide h1 small {
+  display: block;
+  font-size: 40%;
+}
+
+.slide h1 + p {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.slide table th,
+.slide table td {
+  padding: 0.5em;
+}
