@@ -1,6 +1,6 @@
 !SLIDE
 
-# Webtechnologien <small>HTML, CSS & JavaScript</small>
+# HTML, CSS & JavaScript
 
 Februar 2013, Ratingen
 David Roetzel &lt;david@roetzel.de&gt;

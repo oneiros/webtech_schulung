@@ -687,6 +687,7 @@ nav a {
 * Transitions ermöglichen nur Übergang A =&gt; B
 * Animations ermöglichen komplexere, flexiblere Übergange wie A =&gt; B =&gt; C
 * Keyframes legen Ausgangs-, Endzustand und alle Zwischenstationen fest
+
 !SLIDE
 
 ## Keyframes
