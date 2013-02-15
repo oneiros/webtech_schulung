@@ -126,7 +126,7 @@ Beliebige data-Attribute erlaubt.
 * Problem: Darstellungsfehler
 * Problem: Barrierefreiheit
 * Daher besser validieren
-* http://validator.w3c.org
+* http://validator.w3.org
 
 !SLIDE
 
@@ -282,7 +282,7 @@ Zeile 2
 
 !SLIDE
 
-# Textauszeichnung
+# Textaus- zeichnung
 
 !SLIDE
 
@@ -723,7 +723,7 @@ In anderen Browsern mittlerweile eingebaut.
 
 !SLIDE
 
-# Browserunterschiede
+# Browser-unterschiede
 
 !SLIDE
 
@@ -831,7 +831,6 @@ Benutzung von Ruby-Code möglich.
 ## Filter
 
 ~~~~
-%script{:type => "text/javascript"}
   :javascript
     alert('test');
 ~~~~

@@ -736,7 +736,7 @@ div#other {
 
 !SLIDE
 
-# Alternative Ausgabeformate
+# Alternative Ausgabe-formate
 
 !SLIDE
 
@@ -779,7 +779,7 @@ In CSS:
 
 !SLIDE
 
-# Browserunterschiede
+# Browser-unterschiede
 
 !SLIDE
 
@@ -873,7 +873,7 @@ h1 { font-size: $base-size + 15px; }
 @if $size < 15px { color: black; }
 
 @for $i from 1 through 12 {
-  .span-#{$i} { width: $grid-width / 12; }
+  .span-#{$i} { width: $grid-width / 12 * $i; }
 }
 
 @each $class in float1, float2, float3 {
@@ -919,7 +919,7 @@ p strong { color: red; }
 
 ~~~~
 p {
-  font {
+  font: {
     family: FreeSans, sans-serif;
     size: 14px;
     weight: normal;
@@ -964,7 +964,7 @@ p {
 ~~~~
 @mixin colored-box($color) {
   border: 2px solid $color;
-  background: lighten($color);
+  background: lighten($color, 20%);
   color: $color;
 }
 
