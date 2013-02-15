@@ -889,8 +889,8 @@ h1 { font-size: $base-size + 15px; }
 
 $color: rgb(1, 2, 3); // #010203
 
-lighten($color);
-darken($color);
+lighten($color, 10%);
+darken($color, 40%);
 ~~~~
 
 !SLIDE

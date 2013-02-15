@@ -73,7 +73,7 @@ http://<domain>/<pfad>?<query>#<fragment>
 <!-- Einfacher Tag -->
 <tag>Inhalt</tag>
 
-<!-- Tag ohne Inhalt -->
+<!-- Tag ohne Inhalt (void tag) -->
 <tag />
 
 <!-- Verschachtelte Tags -->
@@ -498,7 +498,8 @@ _Attribute_: name, type, value, disabled, u.a.
 ## Eingabe längerer Texte
 
 ~~~~
-<textarea name="description" rows="25" cols="80" />
+<textarea name="description" rows="25" cols="80" >
+</textarea>
 ~~~~
 
 !SLIDE
@@ -624,7 +625,7 @@ _Attribute_: src, alt, width, height u.a.
 ## Audio
 
 ~~~~
-<audio src="test.ogg" />
+<audio src="test.ogg" ></audio>
 ~~~~
 
 _Attribute_: src, preload, autoplay, loop, muted, controls u.a.
@@ -636,7 +637,7 @@ Unterstützte Formate variieren je nach Browser.
 ## Video
 
 ~~~~
-<video src="test.webm" />
+<video src="test.webm" ></video>
 ~~~~
 
 _Attribute_: src, width, height, poster, preload, autoplay, loop, muted, controls u.a.
